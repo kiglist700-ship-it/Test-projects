@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THAN X IDK | Personal Page</title>
+    
+    <!-- 1. Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- 2. Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- 3. Google Font (IBM Plex Mono) to match the style in the image -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Custom styles to apply the background and font */
+        body {
+            /* A dark, moody background image similar to the one in the screenshot */
+            background-image: url('https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?q=80&w=2071');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /* Keeps the background static on scroll */
+        }
+        
+        /* Use the imported monospace font for the card */
+        .font-plex-mono {
+            font-family: 'IBM Plex Mono', monospace;
+        }
+    </style>
+</head>
+<body class="flex min-h-screen items-center justify-center p-4">
+
+    <!-- Main Content Card -->
+    <!-- We use bg-black/70 and backdrop-blur-md to create the semi-transparent "glass" effect -->
+    <div class="font-plex-mono w-full max-w-md rounded-lg bg-black/70 p-8 text-white shadow-2xl backdrop-blur-md">
+        
+        <!-- Header -->
+        <h1 class="mb-4 text-2xl font-bold text-red-500">
+            THAN - ...
+        </h1>
+
+        <!-- Bio -->
+        <p class="mb-4 leading-relaxed text-gray-200">
+           Hello! I go by the name Thal Vanthan, people usually call me Than and you can call me Than or Vanthan
+        </p>
+        <p class="mb-6 leading-relaxed text-gray-200">
+            My hobbies is playing football, moblie games and Listen to music. I also like texting
+        </p>
+
+        <!-- Code Link -->
+        <p class="mb-8 text-gray-200">
+            You can contact me <a href="#" class="text-blue-400 underline hover:text-blue-300">here</a>.
+        </p>
+
+        <!-- Socials Section -->
+        <!-- border-t creates the separator line -->
+        <div class="border-t border-gray-700 pt-6">
+            <h2 class="mb-4 text-center text-lg font-semibold text-gray-100">
+                Socials
+            </h2>
+            
+            <div class="flex flex-col space-y-3">
+                <!-- Instagram Link -->
+                <a href="https://www.instagram.com/thalvanthan?igsh=MWFkZHFmc3d5Yjg4Yg==" class="flex items-center rounded-md p-2 text-gray-200 transition-colors hover:bg-white/10 hover:text-white">
+                    <i class="fa-brands fa-instagram w-6 text-center text-xl"></i>
+                    <span class="ml-3">Instagram</span>
+                </a>
+                
+                <!-- Telegram Link -->
+                <a href="https://t.me/Vanthan2016" class="flex items-center rounded-md p-2 text-gray-200 transition-colors hover:bg-white/10 hover:text-white">
+                    <i class="fa-brands fa-telegram w-6 text-center text-xl"></i>
+                    <span class="ml-3">Telegram</span>
+                </a>
+                
+                <!-- Facebook Link -->
+                <a href="https://www.facebook.com/share/1D7mdReYc4/" class="flex items-center rounded-md p-2 text-gray-200 transition-colors hover:bg-white/10 hover:text-white">
+                    <i class="fa-brands fa-facebook w-6 text-center text-xl"></i>
+                    <span class="ml-3">Facebook</span>
+                </a>
+            </div>
+        </div>
+
+    </div>
